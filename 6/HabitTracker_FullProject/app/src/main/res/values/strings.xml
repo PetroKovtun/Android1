@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+    <string name="add_habit">Додати звичку</string>
+    <string name="statistics">Статистика</string>
+    <string name="name">Назва</string>
+    <string name="description">Опис</string>
+    <string name="save">Зберегти</string>
+</resources>

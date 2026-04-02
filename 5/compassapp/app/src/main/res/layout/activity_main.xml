@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="16dp">
+
+        <!-- Циферблат -->
+        <ImageView
+            android:id="@+id/ivDial"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/compass_dial" />
+
+        <!-- Стрілка -->
+        <ImageView
+            android:id="@+id/ivNeedle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/compass_needle" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvAzimuth"
+        android:text="Azimuth: 0°"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvDirection"
+        android:text="Direction: N"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:text="Sensor: Rotation Vector"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

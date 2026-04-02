@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Minimal Gradle wrapper starter script (Android Studio can regenerate full wrapper if needed)
+DIR="$(cd "$(dirname "$0")" && pwd)"
+exec gradle "$@"
