@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="flower_name">Назва квітів</string>
+    <string name="color">Колір:</string>
+    <string name="red">Червоний</string>
+    <string name="white">Білий</string>
+    <string name="yellow">Жовтий</string>
+    <string name="price">Ціна:</string>
+    <string name="price_low">до 300 грн</string>
+    <string name="price_mid">300–700 грн</string>
+    <string name="price_high">від 700 грн</string>
+    <string name="ok">OK</string>
+    <string name="result">Результат замовлення</string>
+
+</resources>
